@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root{
+    --font-head: 'Lexend Deca', sans-serif;
+    --font-normal:  'Big Shoulders Display', cursive;
+    --font-size: 15px;
+    --yellow-card:  hsl(31, 77%, 52%);
+    --blue-card: hsl(184, 100%, 22%);
+    --green-card: hsl(179, 100%, 13%);
+    --trans-white: hsla(0, 0%, 100%, 0.678);
+    --back-btn: hsl(0, 0%, 95%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid chartreuse; */
+    height: 100vh;
+}
+
+.yellow{
+    background: var(--yellow-card);
+    height: 60vh;
+    width: 16em;
+    word-wrap: break-word;   
+    padding: 10px 40px;
+    border-radius: .4em 0 0 .4em;   
+}
+
+.yellow h2{
+    text-align: left;
+    font-family: var(--font-head);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: var(--back-btn);
+    font-size: 1.6em;
+    padding: 20px 0px;
+    
+
+}
+
+ .yellow .dot{
+    background: hsl(31, 74%, 39%);
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.yellow span{
+    margin: 17px 0px 0px 0px;
+}
+
+.yellow p{
+    color: var(--trans-white);
+    font-family: var(--font-normal);
+    font-size: var(--font-size);
+    font-weight: 600;
+}
+
+.blue{
+    background: var(--blue-card);
+    height: 60vh;
+    width: 16em;
+    word-wrap: break-word;   
+    padding: 10px 40px;
+}
+
+.blue .dot{
+    background: hsl(184, 94%, 14%);
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.blue h2{
+    text-align: left;
+    font-family: var(--font-head);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: var(--back-btn);
+    font-size: 1.6em;
+    padding: 20px 0px;
+
+}
+
+.blue span{
+    margin: 17px 0px 0px 0px;
+}
+
+.blue p{
+    color: var(--trans-white);
+    font-family: var(--font-normal);
+    font-size: var(--font-size);
+    font-weight: 600;
+}
+
+.green{
+    background: var(--green-card);    height: 60vh;
+    width: 16em;
+    word-wrap: break-word;   
+    padding: 10px 40px;
+    border-radius: 0 .4em .4em 0;
+}
+
+.green h2{
+    text-align: left;
+    font-family: var(--font-head);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: var(--back-btn);
+    font-size: 1.6em;
+    padding: 20px 0px;
+}
+
+.green .dot{
+    background: hsl(180, 100%, 6%);
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.green span{
+    margin: 17px 0px 0px 0px;
+}
+
+.green p{
+    color: var(--trans-white);
+    font-family: var(--font-normal);
+    font-size: var(--font-size);
+    font-weight: 600;
+}
+
+.btn{
+    text-align: left;
+    position: relative;
+    top: 18%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.btn a{
+    color: var(--trans-white);
+    font-family: var(--font-normal);
+    font-size: var(--font-size);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 20px;
+    background: transparent;
+    text-align: center;
+    border: 2px solid var(--back-btn);
+    border-radius: 30px;
+}
+
+.btn a:hover{
+    background: white;
+    color: var(--yellow-card);
+}
+
+
+.btn{
+    text-align: left;
+    position: relative;
+    top: 18%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.btn a{
+    color: var(--trans-white);
+    font-family: var(--font-normal);
+    font-size: var(--font-size);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 20px;
+    background: transparent;
+    text-align: center;
+    border: 2px solid var(--back-btn);
+    border-radius: 30px;
+}
+
+.btn a:hover{
+    background: white;
+    color: var(--yellow-card);
+}
+
+
+.btn-2{
+    text-align: left;
+    position: relative;
+    top: 18%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.btn-2 a{
+    color: var(--trans-white);
+    font-family: var(--font-normal);
+    font-size: var(--font-size);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 20px;
+    background: transparent;
+    text-align: center;
+    border: 2px solid var(--back-btn);
+    border-radius: 30px;
+}
+
+.btn-2 a:hover{
+    background: white;
+    color: var(--blue-card);
+}
+
+.btn-3{
+    text-align: left;
+    position: relative;
+    top: 18%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.btn-3 a{
+    color: var(--trans-white);
+    font-family: var(--font-normal);
+    font-size: var(--font-size);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 20px;
+    background: transparent;
+    text-align: center;
+    border: 2px solid var(--back-btn);
+    border-radius: 30px;
+}
+
+.btn-3 a:hover{
+    background: white;
+    color: var(--green-card);
+}
+
+@media screen and (min-width: 360px) and (max-width: 500px){
+    .container{
+        display: row;
+        flex-shrink: 2;
+    }
+   
+    .yellow{
+        margin-top: 5%;
+        border-radius: .4em .4em 0 0; 
+    }
+
+    .green{
+        border-radius: 0 0 .4em .4em; 
+    }
+
+    .btn a{
+        background: var(--back-btn);
+        color: var(--yellow-card);
+    }
+
+    .btn-2 a{
+        background: var(--back-btn);
+        color: var(--blue-card);
+        
+    }
+    .btn-3 a{
+        background: var(--back-btn);
+        color: var(--green-card);
+        
+    }
+
+}
+
+
+@media screen and (min-width: 520px) and (max-width: 700px){
+    .container{
+        display:grid;
+    }
+   
+    .yellow{
+        margin-top: 5%;
+        border-radius: .4em .4em 0 0; 
+    }
+
+    .green{
+        border-radius: 0 0 .4em .4em; 
+    }
+    .btn a{
+        background: var(--back-btn);
+        color: var(--yellow-card);
+    }
+
+    .btn-2 a{
+        background: var(--back-btn);
+        color: var(--blue-card);
+        
+    }
+    .btn-3 a{
+        background: var(--back-btn);
+        color: var(--green-card);
+        
+    }
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px){
+    .container{
+        display: row;
+        flex-wrap: nowrap;
+    }
+   
+    
+    .btn{
+        top: 13%;   
+    }
+    .btn-2{
+        top: 13%;   
+    }
+    .btn-3{
+        top: 13%;   
+    }
+    
+
+}
+
+
