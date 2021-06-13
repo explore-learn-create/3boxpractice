@@ -1,2 +1,2 @@
-# 3boxpractice
+# practice
 this is my practice projects
