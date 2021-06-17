@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(204, 43%, 93%);
+}
+.conatiner{
+    display: grid;
+    grid-template-columns: 80%;
+    height: 100vh;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box-top{
+    margin-top: 10%;
+    background: white;
+    padding: 20px 70px 40px 30px;
+    text-align: start;
+    border-radius: 7px 7px 0 0;
+    box-shadow: 4px 0px 20px 1px rgba(0, 0, 0, 0.123),
+    -4px 0 20px 1px rgba(0, 0, 0, 0.062);
+}
+
+.box-top h2{
+    color: hsl(179, 62%, 43%);
+    font-size: 1.34em;
+    line-height: 2.3em;
+    font-weight: 900;
+}
+
+.box-top h3{
+    color: hsl(71, 73%, 54%);
+    font-size: .985em;
+    font-weight: 600;
+    line-height: 2.3em;
+}
+
+.box-top p{
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    line-height: 1.7em;
+    font-size: 13px;
+}
+
+
+.conatiner2{
+  display: flex; 
+  margin-top: -35%;
+}
+
+.box-botm-left{
+    width: 100%;
+    padding: 30px;
+    background: hsl(179, 61%, 44%);
+    border-radius: 0 0 0 7px;
+    box-shadow: -4px 0 20px 1px rgba(0, 0, 0, 0.062);
+}
+
+.box-botm-left h3{
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: .578px;
+    color: white;
+    line-height: 2em;
+}
+
+.dollar{
+    font-size: 1.5em;
+    color: white;
+    line-height: 2em;
+    font-weight: 700;
+}
+
+.mnth{
+   padding-left: 6px;
+   color: hsl(180, 59%, 64%);
+   font-weight: 400;
+   font-size: 1em;
+}
+
+.box-botm-left p{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .656px;
+}
+
+.btn-yelo{
+   margin-top: 20%;
+   text-align: center;
+}
+
+.btn{
+    text-decoration: none;
+    background: hsl(71, 73%, 54%);
+    width: 100%;
+    text-align: center;
+    padding: 9px 75px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    box-shadow: 2px 0px 6px 2px rgba(0, 0, 0, 0.068),
+    -2px 0 10px 2px rgba(0, 0, 0, 0.062);
+}
+
+
+.box-botm-rght{
+    width: 100%;
+    border-radius: 0 0 7px 0;
+    box-shadow: 4px 0 20px 1px rgba(0, 0, 0, 0.062);
+    padding: 30px;
+    background: hsl(179, 47%, 52%);
+}
+
+.box-botm-rght h2{
+      font-size: 14px;
+      color: white;
+      letter-spacing: .756px;
+      font-weight: 510;
+      line-height: 2em;
+}
+
+.box-botm-rght p{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.616);
+    line-height: 2.1em;
+    padding: 0 70px 0 0;
+}
+
+@media screen and (min-width: 350px) and (max-width: 442px){
+    
+    .conatiner{
+        display: grid;
+        grid-template-columns: 80%;
+        width: 100%;
+    }
+    .box-top{
+        padding: 20px 70px 25px 30px;
+    }
+
+    .box-top h2{
+        font-size: 16px;
+        line-height: 3em;
+        font-weight: 700;
+    }
+    
+    .box-top h3{
+        font-size: 14px;
+        font-weight: 510;
+        line-height: 1.3em;
+    }
+
+    .box-top p{
+        margin-top: 8%;
+        font-weight: 500;
+        line-height: 1.6em;
+        font-size: 13px;
+    }
+
+    .box-top p br{
+        display: none;
+    }
+      
+    .conatiner2{
+        display: grid;
+        margin: auto;
+      }
+    
+      .box-botm-left{
+        padding: 25px;
+        border-radius: 0;
+    }
+
+
+    .box-botm-left p{
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: .656px;
+    }
+
+    .btn-yelo{
+        margin: 11% 0 5% 0;
+     }
+
+     .btn{
+        padding: 10px 100px;
+        border-radius: 5px;
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+        box-shadow: 2px 0px 6px 2px rgba(0, 0, 0, 0.068),
+        -2px 0 10px 2px rgba(0, 0, 0, 0.062);
+    }
+
+
+    .box-botm-rght{
+        border-radius: 0 0 7px 7px;
+    }
+    
+    .box-botm-rght h2{
+        font-size: 16px;
+        color: white;
+        letter-spacing: .984px;
+        font-weight: 510;
+        line-height: 3em;
+        margin-top: -4%;
+  }
+    
+  .box-botm-rght p{
+    font-size: 13x;
+    color: rgba(255, 255, 255, 0.678);
+    font-weight: 600;
+    line-height: 2em;
+    padding: 0 70px 0 0;
+    margin-bottom: -4%;
+}
+
+}
+
+@media screen and (min-width: 443px) and (max-width: 618px){
+
+    .conatiner{
+        display: grid;
+        grid-template-columns: 80%;
+        width: 100%;
+    }
+
+    .box-top{
+        padding: 20px 70px 25px 30px;
+    }
+     
+    .box-top h2{
+        font-size: 20px;
+        line-height: 3em;
+        font-weight: 800;
+    }
+     
+    .box-top h3{
+        font-size: 16px;
+        font-weight: 510;
+        line-height: 1.3em;
+    }
+
+    .box-top p{
+        margin-top: 8%;
+        font-weight: 500;
+        line-height: 1.6em;
+        font-size: 14px;
+    }
+
+    .box-top p br{
+        display: none;
+    }
+      
+    .conatiner2{
+        display: grid;
+        margin: auto;
+      }
+
+      .box-botm-left{
+        padding: 30px;
+        border-radius: 0;
+    }
+
+    .box-botm-left p{
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: .656px;
+    }
+
+    .btn-yelo{
+        margin: 11% 0 5% -7%;
+     }
+
+     .btn{
+        padding: 10px 100px;
+        border-radius: 5px;
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+        box-shadow: 2px 0px 6px 2px rgba(0, 0, 0, 0.068),
+        -2px 0 10px 2px rgba(0, 0, 0, 0.062);
+    }
+
+    .box-botm-rght{
+        border-radius: 0 0 7px 7px;
+    }
+
+    .box-botm-rght h2{
+        font-size: 17px;
+        color: white;
+        letter-spacing: .984px;
+        font-weight: 510;
+        line-height: 3em;
+        margin-top: -4%;
+  }
+
+  .box-botm-rght p{
+    font-size: 13x;
+    color: rgba(255, 255, 255, 0.678);
+    font-weight: 600;
+    line-height: 2em;
+    padding: 0 64px 0 0;
+    margin-bottom: -4%;
+}
+
+}
+
+
+
+@media screen and (min-width: 619px) and (max-width: 894px){
+
+    .conatiner{
+        display: grid;
+        grid-template-columns: 80%;
+        width: 100%;
+    }
+
+    .box-top{
+        padding: 20px 70px 25px 30px;
+    }
+    
+     
+    .box-top h2{
+        font-size: 20px;
+        line-height: 3em;
+        font-weight: 800;
+    }
+     
+    .box-top h3{
+        font-size: 16px;
+        font-weight: 510;
+        line-height: 14px;
+    }
+
+    .box-top p{
+        margin-top: 4%;
+        font-weight: 500;
+        line-height: 1.7em;
+        font-size: 14px;
+    }
+
+    .box-top p br{
+        display: none;
+    }
+      
+    .conatiner2{
+        display: grid;
+        margin: auto;
+      }
+
+      .box-botm-left{
+        padding: 30px;
+        border-radius: 0;
+    }
+
+    .box-botm-left h3{
+        font-size: 18px;
+    }
+
+    .box-botm-left p{
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: .656px;
+    }
+
+    .btn-yelo{
+        margin: 11% 0 5% -7%;
+     }
+
+     .btn{
+        padding: 12px 150px;
+    }
+
+    .box-botm-rght{
+        border-radius: 0 0 7px 7px;
+    }
+
+    .box-botm-rght h2{
+        font-size: 19px;
+        color: white;
+        letter-spacing: .984px;
+        font-weight: 510;
+        line-height: 3em;
+        margin-top: -4%;
+  }
+
+  .box-botm-rght p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.678);
+    font-weight: 600;
+    line-height: 2em;
+    padding: 0 64px 0 0;
+    margin-bottom: -4%;
+}
+
+
+
+}
+
+@media screen and (min-width: 895px) and (max-width: 1219px){
+    .conatiner{
+        display: grid;
+        grid-template-columns: 80%;
+        width: 100%;
+    }
+
+    .box-top{
+        margin-top: -8%;
+    }
+
+    .box-top p{
+        font-size: 17px;
+    }
+
+    .conatiner2{
+        display: flex;
+        margin-top: -35%;
+      }
+
+      .box-botm-left h3{
+        font-size: 18px;
+    }
+
+    .box-botm-left p{
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: .656px;
+    }
+
+    .btn{
+        padding: 12px 120px;
+    }
+
+    .box-botm-rght h2{
+        font-size: 19px;
+        color: white;
+        letter-spacing: .984px;
+        font-weight: 510;
+        line-height: 3em;
+        margin-top: -4%;
+  }
+
+  .box-botm-rght p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.678);
+    font-weight: 600;
+    line-height: 2em;
+    padding: 0 64px 0 0;
+    margin-bottom: -4%;
+}
+
+}
+
+@media screen and (min-width: 1220px) and (max-width: 1320px){
+
+    .box-top{
+        margin-top: -0%;
+    }
+    .box-top p{
+        font-size: 14px;
+    }
+
+    .btn{
+        padding: 12px 70px;
+    }
+
+
+
+}
